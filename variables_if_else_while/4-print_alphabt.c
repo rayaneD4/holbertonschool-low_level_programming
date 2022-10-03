@@ -8,8 +8,8 @@
 int main(void)
 
 {
-char ch = 'a';
-while (ch <= 'z')
+char bo = 'a';
+while (bo <= 'z')
 {
 if (bo <= 'z' && bo != 'q' && bo != 'e')
 {
