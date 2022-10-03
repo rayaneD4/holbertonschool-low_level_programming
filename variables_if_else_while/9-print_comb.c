@@ -4,8 +4,7 @@
  * Description: Program that prints num
  * Return: 0
  */
-int main(void)
-  
+int main(void)  
 {
 int wx = 0;
 while (wx <= 9)
