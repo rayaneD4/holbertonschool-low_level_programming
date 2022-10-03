@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-  char nu = 0;
-  char cod = 'a';
+char nu = 0;
+char cod = 'a';
 while (nu < 10)
 {
 putchar('0' + nu);
