@@ -9,9 +9,9 @@ int main(void)
 {
 int x = 'z';
 
-while (x <= 'a')
+while (x >= 'a')
 {
-putchar ((x % 10) + "0";
+putchar (x);
 x++;
 }
 putchar ('\n');
