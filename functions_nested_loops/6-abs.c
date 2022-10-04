@@ -1,4 +1,3 @@
-s (22 sloc) 254 Bytes
 #include <stdio.h>
 #include "main.h"
 /**
@@ -10,5 +9,5 @@ int _abs(int n)
 {
 if (n < 0)
 n = n * (-1);
-putchar (n);
+putchar(n);
 }
