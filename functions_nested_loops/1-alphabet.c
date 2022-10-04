@@ -8,6 +8,7 @@
 void print_alphabet(void)
 {
 char boo = 'a';
+ 
 while (boo <= 'z')
 {
 putchar(boo);
