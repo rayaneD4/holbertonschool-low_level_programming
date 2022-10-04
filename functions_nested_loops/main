@@ -1,0 +1,2 @@
+#include <stdio.h>
+#include "foo.h"  /* Include the header here, to obtain the function }
