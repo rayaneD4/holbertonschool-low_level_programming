@@ -10,5 +10,6 @@ int print_last_digit(int w)
 int digit = w % 10;
 if (w < 0)
 digit = digit * (-1);
+putchar(digit);
 return (digit);
 }
