@@ -20,10 +20,10 @@ if (r <= 9)
 {
 _putchar('0' + r);
 }
-else if (res > 9)
+else if (r > 9)
 {
-int n1 = res / 10;
-int n2 = res % 10;
+int n1 = r / 10;
+int n2 = r % 10;
 _putchar('0' + n1);
 _putchar('0' + n2);
 }
