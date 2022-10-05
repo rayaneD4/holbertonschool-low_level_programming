@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * jack_bauer - every minute of the day
- *
+ *Return: 0
  */
 void jack_bauer(void)
 {
