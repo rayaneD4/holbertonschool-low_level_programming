@@ -29,7 +29,7 @@ for (na = 0; na <= 9; na++)
 	{
 		int n1 = r / 10;
 		int n2 = r % 10;
-	
+
 		_putchar('0' + n1);
 		_putchar('0' + n2);
 	}
