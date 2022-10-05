@@ -1,10 +1,13 @@
-#rint to 98
-*@n: prints all natural numbers
+#include <stdio.h>
+#include "main.h"
+/**
+ * print_to_98 - print to 98
+*@n: number
 * Return: 0
  */
 void print_to_98(int n)
 {
-0if (n < 98)
+if (n < 98)
 {
 while (n < 98)
 {
