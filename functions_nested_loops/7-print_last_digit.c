@@ -5,7 +5,7 @@
  * @w: integer
  * Return: 0
  */
-int print_last_digit(int w);
+int print_last_digit(int w)
 {
 int digit = w % 10;
 if (w < 0)
