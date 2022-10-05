@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * digit - computes the absolute value of an integer.
+ * print_last_digit - computes the absolute value of an integer.
  * @w: integer
  * Return: 0
  */
