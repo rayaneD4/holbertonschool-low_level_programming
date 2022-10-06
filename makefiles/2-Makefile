@@ -1,7 +1,6 @@
-s (6 sloc) 102 Bytes
 CC = gcc
 SRC = main.c school.c
-OBJ = $(SRC:.c=.o)
+OBJ = $(SRC:%.c=%.o)
 	NAME = school
 
 all: $(OBJ)
