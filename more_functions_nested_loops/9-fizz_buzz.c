@@ -12,13 +12,15 @@ int s;
 for (s = 1; s <= 100; s++)
 {
 if (s % 3 == 0 && s % 5 == 0)
-printf("FizzBuzz ");
+printf("FizzBuzz");
 else if (s % 3 == 0)
-printf("Fizz ");
+printf("Fizz");
 else if (s % 5 == 0)
-printf("Buzz ");
+printf("Buzz");
 else
-printf("%d ", s);
+printf("%d", s);
+if (s < 100)
+printf(" ");
 }
 printf("\n");
 return (0);
