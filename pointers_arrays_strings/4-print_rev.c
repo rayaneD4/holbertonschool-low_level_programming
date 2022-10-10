@@ -15,7 +15,7 @@ l = strlen(s);
 
 for (i = l - 1; i >= 0; i--)
 {
-_putchar(*(s + i));
+putchar(*(s + i));
 }
-_putchar('\n');
+putchar('\n');
 }
