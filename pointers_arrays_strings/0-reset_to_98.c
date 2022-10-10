@@ -1,13 +1,13 @@
-#include"main.h"
+#include <stdio.h>
+#include "main.h"
+
 /**
- * reset_to_98 - takes a pointer to an int
- *
- * Return: 0
+ * reset_to_98 - Entry point
+ * @n: integer
  *
  */
 void reset_to_98(int *n)
 {
-int n = 98;
-int *p = &n;
-
+int var = 98;
+*n = var;
 }
