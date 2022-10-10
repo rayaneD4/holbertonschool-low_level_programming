@@ -7,15 +7,22 @@
  */
 void print_rev(char *s)
 {
-  int n = 0;
-while (s[n] != '\0')
-n++;
-}
-j = n - 1;
-for (i = 0; i < count; i++)
+char Str[100], temp;
+int i, j, len;
+
+printf("\n Actual :  ");
+gets(Str);
+
+len = strlen(Str) - 1;
+
+for (i = 0; i < strlen(Str)/2; i++)
 {
-rev[i] = str[j];
-j--;
+temp = Str[i];
+Str[i] = Str[len];
+Str[len--] = temp;
 }
 
- 
+printf("\n Result = %s", Str);
+
+return 0;
+}
