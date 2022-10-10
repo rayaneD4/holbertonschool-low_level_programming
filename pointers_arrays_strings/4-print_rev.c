@@ -7,11 +7,15 @@
  */
 void print_rev(char *s)
 {
-char *res = malloc( longitud * sizeof(char) + 1);
-
-for (i = 0; i < longitud-1; i++)
+  int n = 0;
+while (s[n] != '\0')
+n++;
+}
+j = n - 1;
+for (i = 0; i < count; i++)
 {
-res[i] = word[longitud - 2 - i];
+rev[i] = str[j];
+j--;
 }
-res[i] = '\0';
-}
+
+ 
