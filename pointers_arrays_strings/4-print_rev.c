@@ -6,23 +6,14 @@
  * Return: 0
  */
 void print_rev(char *s)
-{
-char Str[100], temp;
-int i, j, len;
-
-printf("\n Actual :  ");
-gets(Str);
-
-len = strlen(Str) - 1;
-
-for (i = 0; i < strlen(Str)/2; i++)
-{
-temp = Str[i];
-Str[i] = Str[len];
-Str[len--] = temp;
 }
+int i, l;
 
-printf("\n Result = %s", Str);
+l = strlen(s);
 
-return 0;
+for (i = l - 1; i >= 0; i--)
+{
+_putchar(*(s + i));
+}
+_putchar('\n');
 }
