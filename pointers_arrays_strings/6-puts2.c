@@ -18,6 +18,6 @@ if (x % 2 == 0)
 putchar(*(str + x));
 }
 }
-putchar("\n");
+putchar('\n');
 }
 
