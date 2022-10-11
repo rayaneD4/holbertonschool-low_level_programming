@@ -15,9 +15,9 @@ for (x = 0; x <= n; x++)
 {
 if (x % 2 == 0)
 {
-_putchar(*(str + x));
+putchar(*(str + x));
 }
 }
-_putchar("\n");
+putchar("\n");
 }
 
