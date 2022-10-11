@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * puts2 - prints half of a string
+ * puts_half - prints half of a string
  * @str: string
- * Return: void
+ * Return: 0
  */
-void puts2(char *str)
+void puts_half(char *str)
 {
 int i, h;
 int n = strlen(str);
