@@ -13,7 +13,7 @@ int n = strlen(str);
 if (n % 2 == 0)
 h = n / 2;
 else
-h = (n / 2) + 1;   
+h = (n / 2) + 1;
 for (i = h; i < n; i++)
 {
 putchar(*(str + i));
