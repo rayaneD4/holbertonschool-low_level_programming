@@ -9,7 +9,7 @@
 void puts2(char *str)
 {
 int x;
-int n = strlen(str);
+int n = strlen(str) - 1;
 
 for (x = 0; x <= n; x++)
 {
