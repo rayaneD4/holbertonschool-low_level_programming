@@ -5,7 +5,7 @@
 /**
  * _strncpy - Entry point
  * @dest: string
- * @src: pointer 
+ * @src: pointer
  * @n: integer
  *
  * Return: dest
