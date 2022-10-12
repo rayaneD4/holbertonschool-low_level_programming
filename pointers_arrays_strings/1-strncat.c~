@@ -1,12 +1,13 @@
-#include <stdio.h>
+nclude <stdio.h>
+#include <string.h>
 #include "main.h"
 
 /**
  * _strlen - Entry point
  * @s: pointer string
  *
- * Return: i
- */
+ * Return: i (Success)
+ **/
 int _strlen(char *s)
 {
 int i = 0;
@@ -18,16 +19,15 @@ s++;
 
 }
 return (i);
-}
-
+}	
 /**
  * _strncat - Entry point
  * @dest: pointer string
  * @src: pointer string
  * @n: integer
  *
- * Return: dest
- */
+ * Return: dest (Success)
+ **/
 char *_strncat(char *dest, char *src, int n)
 {
 int i;
