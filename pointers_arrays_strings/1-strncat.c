@@ -15,10 +15,9 @@ while (*s != '\0')
 {
 i++;
 s++;
-
 }
 return (i);
-}	
+}
 /**
  * _strncat - Entry point
  * @dest: pointer string
