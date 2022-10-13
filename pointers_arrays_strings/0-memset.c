@@ -18,7 +18,7 @@ c = m;
 i = 0;
 while (i < n)
 {
-m[i] = (char)c
+m[i] = c;
 i++;
 }
 return (s);
