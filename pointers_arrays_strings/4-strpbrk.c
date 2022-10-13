@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- *  * _strpbrk - Write a function that searches a string for any of a set of bytes
- *   * @s: chaine
- *    * @accept: chaine
- *     * Return: 0
- *      */
+* _strpbrk - Write a function that searches a string for any of a set of bytes
+* @s: chaine
+* @accept: chaine
+* Return: 0
+**/
 
 char *_strpbrk(char *s, char *accept)
 {
