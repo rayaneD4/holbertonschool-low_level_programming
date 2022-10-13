@@ -15,8 +15,6 @@ if (*s == c)
 {
 return (s);
 }
-}
-while (*s++);
-}
- return (0);
+} while (*s++);
+return (0);
 }
