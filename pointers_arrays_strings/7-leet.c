@@ -18,6 +18,7 @@ for (i = 0; i < 5; i++)
 if (*s == a[i] || *s == a[i] + 32)
 *s = n[i];
 }
+s++;
 }
 return (l);
 }
