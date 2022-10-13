@@ -8,7 +8,7 @@
 char *leet(char *s)
 {
 int i;
-char *s = l
+char *l = s;
 char a[] = {'A', 'E', 'O', 'T', 'L'};
 char n[] = {'4', '3', '0', '7', '1'};
 while (*s != '\0')
@@ -19,5 +19,5 @@ if (*s == a[i] || *s == a[i] + 32)
 *s = n[i];
 }
 }
-return (s);
+return (l);
 }
