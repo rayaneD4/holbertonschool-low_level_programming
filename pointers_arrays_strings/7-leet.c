@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * puts_half - function that prints half of the string
+ * leet - function that prints half of the string
  * @s: variable with the string
  * Return: 0
  */
