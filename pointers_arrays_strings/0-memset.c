@@ -13,7 +13,7 @@ char *_memset(char *s, char b, unsigned int n)
 {
 char *m;
 char d = b;
-for (m = s; n > 0; --n)
+for (m = s; n > 0; --n, ++m)
 {
 *m = d;
 }
