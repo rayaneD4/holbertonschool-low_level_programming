@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include "main.h"
+
+/**
+ * _strspn - Entry point
+ * @s: pointer
+ * @accept: pointer
+ *
+ * Return: character(s) or null (Success)
+ */
+unsigned int _strspn(char *s, char *accept)
+{
+  int i, g;
+
+	for (i = 0; s[i] != '\0' ;i++)
+    	{
+
+       		for (g = 0; accept[g] != '\0' ;g++)
+		{		
+	  		if (s[i] == accept[g])
+	      			break;
+	   
+		}
+		if (accept[g] == '\0')
+	       		break;
+	
+	}
+      	return (i);
+}
