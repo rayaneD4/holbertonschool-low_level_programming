@@ -1,4 +1,4 @@
-0;10;1c0;10;1c#include <stdio.h>
+#include <stdio.h>
 #include "main.h"
 /**
  * _puts_recursion - prints a string
@@ -7,13 +7,13 @@
  */
 void _puts_recursion(char *s)
 {
-int i = 0;
-while (*s){
-putchar(*s++);
-i++;
+if (*s == '\0')
+{
+  printf("\n");
+  return;
 }
-putchar('\n');
-return i + 1;
+printf("%c", *s);
+_puts_recursion(s + 1);
 }
 
  
