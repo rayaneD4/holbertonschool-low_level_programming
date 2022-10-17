@@ -1,0 +1,19 @@
+0;10;1c0;10;1c#include <stdio.h>
+#include "main.h"
+/**
+ * _puts_recursion - prints a string
+ * @s:pointer
+ * return: 0
+ */
+void _puts_recursion(char *s)
+{
+int i = 0;
+while (*s){
+putchar(*s++);
+i++;
+}
+putchar('\n');
+return i + 1;
+}
+
+ 
