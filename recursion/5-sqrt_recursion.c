@@ -19,12 +19,12 @@ return (-1);
 return (square(a, r + 1));
 }
 /**
- * sqrt_recursion - give the result
+ * _sqrt_recursion - give the result
  * @n: intager
  *
  * Return: integer
  */
-int sqrt_recursion(int n)
+int _sqrt_recursion(int n)
 {
 return (square(n, 1));
 }
