@@ -18,3 +18,13 @@ if (res > a)
 return (-1);
 return (square(a, r + 1));
 }
+/**
+ * sqrt_recursion - give the result
+ * @n: intager
+ *
+ * Return: integer
+ */
+int sqrt_recursion(int n)
+{
+return (square(n, 1));
+}
