@@ -26,5 +26,7 @@ return (prime(b, i + 1));
  */
 int is_prime_number(int n)
 {
+if (n < 2)
+return (0);
 return (prime(n, 2));
 }
