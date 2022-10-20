@@ -19,10 +19,11 @@ if (argc == 3)
 {
 for (i = 1; i < argc; i++)
 {
-r= r * strtol(argv[i], &p, 10);
+r = r * strtol(argv[i], &p, 10);
 }
 printf("%d\n", r);
 }
 else
 printf("Error\n");
+
 return (0);
