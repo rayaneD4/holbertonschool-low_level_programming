@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include "main.h"
 
@@ -6,7 +7,7 @@
  * @argc: Integer
  * @argv: Pointer
  *
- * Return: 0 (Success)
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
