@@ -14,7 +14,7 @@ int i;
 printf("%d\n", argc - 1);
 for (i = 0; i < argc - 1; i++)
 {
-argv++
+argv++;
 }
 return (0);
 }
