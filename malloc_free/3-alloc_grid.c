@@ -37,5 +37,5 @@ for (t = 0; t < width; t++)
 p[i][t] = 0;
 }
 }
-return(p);
+return (p);
 }
