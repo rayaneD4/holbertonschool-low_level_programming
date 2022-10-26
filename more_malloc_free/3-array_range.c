@@ -14,7 +14,7 @@ int i = 0;
 int sum = max - (min + 1);
 if (min > max)
 return (NULL);
-ar = malloc(sizeof(*ar) * (sum));
+ar = malloc(sizeof(int) * (sum));
 if (ar == NULL)
 return (NULL);
 for (i = 0; i < sum; i++)
