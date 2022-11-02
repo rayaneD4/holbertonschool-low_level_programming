@@ -1,5 +1,6 @@
+![50af78a28a081e809856d4cdbde2d7ca9d4aa93d](https://user-images.githubusercontent.com/113839670/199112721-a3416ae3-683a-44e0-9068-0ab8e212137e.jpg)
+____________________________________
 0:Define a new type struct dog with the following elements:
-
 name, type = char *
 age, type = float
 owner, type = char *
