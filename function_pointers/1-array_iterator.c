@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * array_iterator - Write a function that executes 
+ * array_iterator - Write a function that executes
  * @array: pointer
  * @size: size
  * @action: pointer
