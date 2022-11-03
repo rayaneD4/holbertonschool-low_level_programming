@@ -17,7 +17,7 @@ va_list pr;
 	{
 		return (0);
 	}
-	va_start(pt, n);
+	va_start(pr, n);
 
 	for (i = 0; i < n; i++)
 	{
