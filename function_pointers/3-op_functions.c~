@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "3-calc.h"
+
+/**
+ * op_add - Function that returns the sum
+ * op_sub - function thet reyurn the deff
+ * op_mul - function that return the product
+ * op_div - function that return the result
+ * op_mod - function that return the remainder
+ * @a: number 1
+ * @b: number 2
+ * Return: 0
+ */
+int op_add(int a, int b)
+{
+	return (a + b);
+}
+int op_sub(int a, int b)
+{
+	return (a - b);
+}
+int op_mul(int a, int b)
+{
+	return (a * b);
+}
+int op_div(int a, int b)
+{
+	return (a / b);
+}
+int op_mod(int a, int b)
+{
+	return (a % b);
+}
+
