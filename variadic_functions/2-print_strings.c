@@ -15,7 +15,7 @@ va_list p;
 
 va_start(p, n);
 
-for (i = 0; i < len; i++)
+for (i = 0; i < len - 1; i++)
 {
 const char *s = va_arg(p, const char *);
 {
@@ -27,6 +27,6 @@ else
 printf("%s%s", s, separator);
 }
 va_end(p);
-printf("\n");
+printf("%s\n", s);
 }
 }
