@@ -22,9 +22,9 @@ const char *s = va_arg(p, const char *);
 if (s == NULL)
 printf("(nil)");
 else if (separator == NULL)
-printf("%d", va_arg(p, int));
+printf("%d", s);
 else
-printf("%d%s", va_arg(p, int), separator);
+printf("%d%s", s, separator);
 }
 va_end(p);
 printf("\n");
