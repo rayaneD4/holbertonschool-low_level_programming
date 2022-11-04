@@ -26,7 +26,7 @@ printf("%s", s);
 else
 printf("%s%s", s, separator);
 }
-va_end(p);
-printf("%s\n", s);
 }
+printf("%s\n", s);
+va_end(p);
 }
