@@ -19,7 +19,6 @@ va_start(p, n);
 for (i = 0; i < n; i++)
 {
 s = va_arg(p, char *);
-{
 if (s == NULL)
 printf("(nil)");
 else
@@ -30,5 +29,4 @@ printf("%s", separator);
 printf("\n");
 
 va_end(p);
-}
 }
