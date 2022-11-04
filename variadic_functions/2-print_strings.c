@@ -27,6 +27,6 @@ else
 printf("%s%s", s, separator);
 }
 }
-printf("%s\n", s);
+printf("%s\n", p);
 va_end(p);
 }
