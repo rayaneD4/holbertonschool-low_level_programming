@@ -44,7 +44,7 @@ switch (format[n])
 	  break;
 	}
  
-++i
+ ++i;
   }
  printf("\n");
 
