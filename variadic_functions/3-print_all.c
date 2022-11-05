@@ -16,37 +16,36 @@ char *r = ", ";
 char *string;
 
 va_start(p, format);
-while (format && format[n])
-++n;
-while (format && format[i])
-{
-  if (i == (n - 1))
-    r = "";
-switch (format[n])
+	while (format && format[n])
+	++n;
+	while (format && format[i])
+	{
+	if (i == (n - 1))
+		r = "";
+	switch (format[n])
 	{
 	case 'c':
-	  printf("%c%s", va_arg(p, int), r);
-	  break;
+		printf("%c%s", va_arg(p, int), r);
+		break;
 	case 'i':
-	  printf("%d%s", va_arg(p, int), r);
-	  break;
+		printf("%d%s", va_arg(p, int), r);
+		break;
 	case 'f':
-	  printf("%f%s", va_arg(p, double), r);
-	  break;
+		printf("%f%s", va_arg(p, double), r);
+		break;
 	case 's':
-	  string = va_arg(p, char *);
-	  if (string == NULL)
-	    {
-	      printf("(nil), ");
-	      break;
-	    }
-	  printf("%s%s", string, r);
-	  break;
+		string = va_arg(p, char *);
+		if (string == NULL)
+		{
+			printf("(nil), ");
+			break;
+		}
+			printf("%s%s", string, r);
+		break;
 	}
- 
- ++i;
-  }
- printf("\n");
+	++i;
+	}
+	printf("\n");
 
-va_end(p);
- }
+	va_end(p);
+}
