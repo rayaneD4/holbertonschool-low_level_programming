@@ -22,7 +22,7 @@ va_start(p, format);
 	{
 	if (i == (n - 1))
 		r = "";
-	switch (format[n])
+	switch (format[i])
 	{
 	case 'c':
 		printf("%c%s", va_arg(p, int), r);
