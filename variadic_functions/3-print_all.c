@@ -20,6 +20,8 @@ while (format && format[n])
 ++n;
 while (format && format[i])
 {
+  if (i == (n - 1))
+    r = "";
 switch (format[n])
 	{
 	case 'c':
