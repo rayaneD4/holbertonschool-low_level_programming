@@ -44,8 +44,9 @@ switch (format[n])
 	  break;
 	}
  
-printf("\n");
+++i
+  }
+ printf("\n");
 
 va_end(p);
  }
-}
