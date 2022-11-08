@@ -15,5 +15,3 @@ if (*s == '\0')
 printf("%c", *s);
 _puts_recursion(s + 1);
 }
-
- 

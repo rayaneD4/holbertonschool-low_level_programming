@@ -1,0 +1,37 @@
+#include "main.h"
+#include <stdio>
+/**
+ *  _printf - Prints output according to format
+ *  @format: char 
+ *  Return: 0
+ */
+int _printf(const char *format, ...)
+{
+	int c = 0;
+	va_list argp;
+
+	va_start(argp, format);
+
+	while (*format != '\0')
+	{
+		switch (*format)
+		{
+			case 'c':
+				c += print_char(va_arg(argp, int));
+				break;
+			case 's':
+				c += print_string(va_arg(argp, char*));
+				break;
+			case '%':
+				c += print_percent(*format);
+				break;
+			case 'd' :
+			case 'i' :
+				c += print_integer(va_arg(args, int));
+				break;
+		}
+		format++;
+	}
+	va_end(args);
+	return (c);
+}
