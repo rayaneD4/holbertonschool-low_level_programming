@@ -2,7 +2,7 @@
 
 /**
  * istint_len -  function that returns the number of elements
- * @h - pointer
+ * @h: pointer
  *
  * Return: 0
  */
