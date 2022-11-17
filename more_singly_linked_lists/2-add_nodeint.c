@@ -1,5 +1,4 @@
 #include "lists.h"
-#include <string.h>
 
 /**
  * add_node - function to add new node at the beginning
@@ -19,8 +18,8 @@ listint_t *add_nodeint(listint_t **head, const int n)
 		return (NULL);
 	}
 	newnode->n = n;
-	newnode->next = *head;
-	newnode = *head;
+	newnode->next = head;
+	newnode = head;
 	
 	return (newnode);
 }
