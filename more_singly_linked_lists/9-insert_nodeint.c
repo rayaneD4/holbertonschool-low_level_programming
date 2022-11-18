@@ -27,9 +27,9 @@ newnode->n = n;
 
 for (i = 0; i < idx - 1; i++)
 	{
-		temp = temp->next;
 		if (temp == NULL)
 			return (NULL);
+		temp = temp->next
 	}
 	newnode->next = temp->next;
 	temp->next = newnode;
