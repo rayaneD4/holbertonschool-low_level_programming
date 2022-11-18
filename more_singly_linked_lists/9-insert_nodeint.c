@@ -1,6 +1,27 @@
 #include "lists.h"
 
 /**
+ * listint_len -  function that returns the number of elements
+ * @h: pointer
+ *
+ * Return: 0
+ */
+
+size_t listint_len(const listint_t *h)
+
+{
+int i = 0;
+
+	while (h != NULL)
+	{
+		i++;
+		h = h->next;
+	}
+	return (i);
+}
+
+
+/**
  * insert_nodeint_at_index - inserts a new node
  * @head: pointer to pointer to head
  * @idx: index
@@ -9,23 +30,27 @@
  */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
-listint_t *newnode, *temp;
-unsigned int i;
-    newnode = malloc(sizeof(listint_t));
+	listint_t *newnode, *temp;
+	unsigned int i, no = listint_len(*head);
 
-        if (newnode == NULL)
-            return (NULL);
+	newnode = malloc(sizeof(listint_t));
 
-newnode->n = n;
+	if (newnode == NULL)
+		return (NULL);
 
-    if (idx == 0)
-    {
-        newnode->next = *head;
-        *head = newnode;
-        return (newnode);
-    }
+	newnode->n = n;
 
-for (i = 0; i < idx - 1; i++)
+	if (idx == 0)
+	{
+		newnode->next = *head;
+		*head = newnode;
+		return (newnode);
+	}
+	if (idx > no)
+		return (NULL);
+
+
+	for (i = 0; i < idx - 1; i++)
 	{
 		if (temp == NULL)
 			return (NULL);
