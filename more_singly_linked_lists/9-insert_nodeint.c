@@ -29,7 +29,7 @@ for (i = 0; i < idx - 1; i++)
 	{
 		if (temp == NULL)
 			return (NULL);
-		temp = temp->next
+		temp = temp->next;
 	}
 	newnode->next = temp->next;
 	temp->next = newnode;
