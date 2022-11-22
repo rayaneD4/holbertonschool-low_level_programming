@@ -23,7 +23,7 @@ int i = 0;
 
 /**
  * insert_dnodeint_at_index - inserts a new node
- * @head: pointer to pointer to head
+ * @h: pointer to pointer to head
  * @idx: index
  * @n: data to add to node
  * Return: 0
@@ -51,18 +51,18 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	}
 	if (temp->next == NULL)
 		return (add_dnodeint_end(h, n));
-	
+
 	newnode = malloc(sizeof(dlistint_t));
 	if (newnode == NULL)
 		return (NULL);
-	
+
 	newnode->n = n;
 
 	newnode->prev = temp;
 	newnode->next = temp->next;
 	temp->next->prev = newnode;
 	temp->next = newnode;
-	
+
 
 	return (newnode);
 }
