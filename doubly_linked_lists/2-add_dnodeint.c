@@ -7,7 +7,7 @@
  * Return: 0
  */
 
-dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
+dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
 	dlistint_t *newnode;
 
@@ -19,6 +19,8 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 	}
 	newnode->n = n;
 	newnode->next = *head;
+	newnode->prev = NULL;
+
 	*head = newnode;
 
 	return (newnode);
