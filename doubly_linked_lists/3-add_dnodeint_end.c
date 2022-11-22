@@ -14,25 +14,19 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 
 	newNode->n = n;
 
-    // assign NULL to next of newNode
     newNode->next = NULL;
 
-    // if the linked list is empty, make the newNode as head node
-    if (*head == NULL) {
+    if (*head == NULL)
+    {
         newNode->prev = NULL;
         *head = newNode;
-        return;
+        return (newNode);
     }
 
-    // if the linked list is not empty, traverse to the end of the linked list
     while (temp->next != NULL)
         temp = temp->next;
    
-    // now, the last node of the linked list is temp
-
-    // point the next of the last node (temp) to newNode.
-    temp->next = newNode;
-
-    // assign prev of newNode to temp
+    temp->neext = newNode;
     newNode->prev = temp;
+    retuen (newNode);
 }
