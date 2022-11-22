@@ -1,7 +1,7 @@
 # include "lists.h"
 
 /**
- * get_nodeint_at_index - returns the nth node
+ * get_dnodeint_at_index - returns the nth node
  * @head: poitor
  * @index: index
  * Return: 0
