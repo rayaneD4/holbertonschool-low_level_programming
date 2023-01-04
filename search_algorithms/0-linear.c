@@ -7,7 +7,7 @@
  * the array to search in
  * @size: is the number of elements in array
  * @value: is the value to search for
- * 
+ *
  * Return: 0
  */
 
