@@ -1,7 +1,7 @@
 #include "search_algos.h"
 
 /**
- * binary_search - function that searches for a value in a 
+ * binary_search - function that searches for a value in a
  * sorted array of integers
  * @array: is a pointer to the first element of the array to search in
  * @size:  number of elements in array
@@ -30,7 +30,7 @@ int binary_search(int *array, size_t size, int value)
 		}
 
 		printf("\n");
-		if (array[mid] == value) 
+		if (array[mid] == value)
 			return (mid);
 
 		else if (array[mid] < value)
